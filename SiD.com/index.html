@@ -1,6 +1,7 @@
 
   <!DOCTYPE html>
   <html>
+  <head>
   <style type="text/css">
   /* Full-width input fields */
   input[type=text], input[type=password] {
@@ -90,10 +91,23 @@
          width: 100%;
       }
   }
+
+.lasb {
+  position: relative;
+  top: -18px;
+  right: -815px;
+}
+
+.img {
+  border: 10px solid;
+}
   </style>
+</head>
   <body>
-    <button onclick="window.location.href='login.html'" style="width:auto;" class="lasb">Login</button>
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="lasb">Sign Up</button>
+
+    <img src="SiDLogo.jpg" class="img1" align="left">
+    <button onclick="window.location.href='login.html'" style="width:auto;" class="lasb" align="right">Login</button>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="lasb" align="right">Sign Up</button>
 
     <div id="id01" class="modal">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
